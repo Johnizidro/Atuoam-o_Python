@@ -12,3 +12,6 @@ def simulador_processamento():
 def pagina_principal():
     simulador_processamento()
     return jsonify({"Mensagem: Página Inicial"})
+
+if __name__ == '__main__':
+    app.run(port=8000)
