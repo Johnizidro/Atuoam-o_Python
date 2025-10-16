@@ -1,4 +1,4 @@
-import calcpy
+import testes.calcpy as calcpy
 
 def test_soma():
     assert calcpy.soma(2, 3) == 5
